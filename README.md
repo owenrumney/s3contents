@@ -72,7 +72,7 @@ and ensure that the EC2 instance has an IAM role which provides sufficient permi
 
 ### AWS key refresh
 
-The optional `init_s3_hook` configuration can be used to enable AWS key rotation (described [here](https://dev.to/li_chastina/auto-refresh-aws-tokens-using-iam-role-and-boto3-2cjf) and [here](https://www.owenrumney.co.uk/2019/01/15/implementing-refreshingawscredentials-python/)) as follows:
+The optional `init_s3_hook` configuration can be used to enable AWS key rotation (described [here](https://dev.to/li_chastina/auto-refresh-aws-tokens-using-iam-role-and-boto3-2cjf) and [here](https://www.owenrumney.co.uk/implementing-refreshingawscredentials-python/)) as follows:
 
 ```python
 from s3contents import S3ContentsManager
